@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #D7F5DC;
+    font-family: Poppins;
+    font-size: 20px;
+}
+
+div {
+    /* border: 1px dashed red; */
+}
+
+.logo {
+    color: #000;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.logo span {
+    color: #F55F1D;
+}
+
+.menubar div {
+    color: #000;
+    font-family: Poppins;
+
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+header {
+    padding: 50px 114.625px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menubar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.menu-button {
+    border-radius: 11.463px;
+    border: 1.146px solid #20B15A;
+    width: 106px;
+    text-align: center;
+    padding: 11px;
+}
+
+#register {
+    background-color: #20B15A;
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+main h1 {
+    font-size: 57.313px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 74.506px;
+}
+
+main p {
+    margin-top: 20px;
+}
+
+.get-started-button {
+    border-radius: 11.463px;
+    background-color: #20B15A;
+    color: white;
+    width: 132px;
+    text-align: center;
+    padding: 23px 34px;
+    margin-top: 42px;
+}
+
+.main-content-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    align-content: flex-end;
+
+    max-width: 630px;
+}
+
+.grapic-image {
+    width: 770.28px;
+    height: 646.485px;
+    background-image: url("Header\ Lady\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grapic-image div {
+    border-radius: 12.226px;
+    display: inline-flex;
+    width: 32px;
+    height: 32px;
+    padding: 16.302px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.office-icon {
+    position: relative;
+    top: 467px;
+    transform: rotate(45deg);
+    border-radius: 12.226px;
+    background: #48B774;
+    /* background-image: url("Work.png");
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+
+
+
+.office-icon svg {
+    transform: rotate(-45deg) scale(1.5);
+
+}
+
+.star-icon {
+    position: relative;
+    top: 58px;
+    left: 9px;
+    transform: rotate(25deg);
+    border-radius: 12.226px;
+    background: #FF8345;
+}
+
+.star-icon svg {
+    transform: rotate(50deg) scale(1.5);
+}
+
+.tick-icon {
+    position: relative;
+    top: 161px;
+    left: 325px;
+    border-radius: 12.226px;
+    background: #48B774;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    height: 137.55px;
+    padding: 0px 16px 0px 13px;
+    margin-bottom: 50px;
+}
