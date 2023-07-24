@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+
+main,
+footer,
+section {
+    margin: 0 auto;
+    padding: 0 15% 0 15%;
+}
+
+div {
+    border: 1px dashed red;
+}
+
+.font,
+a,
+p,
+h1 {
+    color: #02073E;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+
+
+
+}
+
+.button {
+    border: 0;
+    font-size: 1rem;
+    line-height: 1.2;
+    white-space: nowrap;
+    text-decoration: none;
+    padding: .5rem 1rem;
+    cursor: pointer;
+
+    background-color: #FCF2E8;
+    border-radius: 5px;
+
+    color: #EF9E48;
+
+    font-weight: 700;
+    line-height: 24px;
+
+    letter-spacing: -0.16px;
+
+}
+
+/* navbar */
+
+.logo-header {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.logo-header p {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.navigation-menu {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.navigation-menu a {
+    text-decoration: none;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    column-gap: 20%;
+    grid-template-rows: 3rem;
+    grid-auto-flow: dense;
+}
