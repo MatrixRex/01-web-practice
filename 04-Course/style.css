@@ -22,9 +22,6 @@ h1 {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-
-
-
 }
 
 .button {
@@ -80,4 +77,18 @@ nav {
     column-gap: 20%;
     grid-template-rows: 3rem;
     grid-auto-flow: dense;
+}
+
+
+/* header content */
+
+.rating-star,
+.rating-star-gray {
+    height: 20px;
+    width: 20px;
+    fill: #02073E;
+}
+
+.rating-star-gray {
+    fill: #BAC7CF
 }
