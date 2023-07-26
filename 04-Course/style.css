@@ -2,11 +2,10 @@
 
 
 
-main,
 footer,
 section {
     margin: 0 auto;
-    padding: 0 10% 0 10%;
+    padding: 0 260px;
 }
 
 div,
@@ -18,6 +17,7 @@ h1 {
 a,
 p,
 h1,
+h2,
 ::placeholder {
     color: #02073E;
     font-family: 'Roboto', sans-serif;
@@ -93,9 +93,8 @@ nav {
 /* #endregion */
 
 
-/* header content */
 
-
+/* #region Header */
 /* #region header content left */
 
 .header-content-container {
@@ -244,4 +243,115 @@ nav {
     position: absolute;
     z-index: -1;
     top: 0;
+}
+
+/* #endregion */
+
+
+main {
+    margin-top: 300px;
+}
+
+main>section>h2 {
+    color: #EF9E48;
+    text-align: center;
+
+    font-size: 14px;
+
+    font-weight: 700;
+    line-height: 40px;
+
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+}
+
+main>section>h1 {
+
+    text-align: center;
+
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 10px;
+    /* 152.778% */
+    letter-spacing: 1.5px;
+
+}
+
+.video-cards-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+.video_cards {
+    flex: 1;
+
+    max-width: 447px;
+    height: fit-content;
+    height: 445px;
+
+
+    border-radius: 10px;
+    border: 1px solid #F3F4F5;
+    background: #FFF;
+}
+
+.video_cards:hover {
+    box-shadow: 0 15px 50px rgba(69, 88, 157, .10);
+}
+
+
+.video-cards-content {
+    padding: 0 15px 15px 25px;
+}
+
+.rating-container {
+    margin-top: 8px;
+}
+
+.rating-container p {
+    margin: 0;
+
+}
+
+
+
+.video-cards-content>.rating-container svg {
+    fill: #FFCE1F;
+}
+
+.video-cards-content>.rating-container p {
+
+    font-size: 15px;
+
+    line-height: 30px;
+}
+
+.video-cards-content h1 {
+
+    font-size: 20px;
+
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 1px;
+    /* 150% */
+
+    margin: 0;
+    margin-top: 8px;
+}
+
+.video-watchcount {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.video-watchcount p {
+    color: rgba(52, 61, 72, 0.800000011920929);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+
+
 }
