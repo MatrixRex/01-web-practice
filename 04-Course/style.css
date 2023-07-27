@@ -179,6 +179,7 @@ nav {
     line-height: 100px;
     letter-spacing: -2px;
     margin: 0;
+    text-align: left;
 }
 
 .header-heading-container svg {
@@ -519,7 +520,7 @@ nav {
     color: #0F2137;
 
     font-size: 48px;
-
+    text-align: left;
     font-weight: 700;
     line-height: 55px;
     /* 114.583% */
@@ -550,6 +551,7 @@ nav {
 }
 
 .popular-course-cards-container {
+    margin-top: 100px;
     display: grid;
     gap: 20px;
 }
