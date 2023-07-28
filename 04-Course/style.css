@@ -3,10 +3,15 @@
 
 
 
-footer,
+
 section {
     margin: 0 auto;
     padding: 0 260px;
+}
+
+footer section {
+    margin: 0 auto;
+    padding: 0 510px;
 }
 
 div,
@@ -30,6 +35,10 @@ li,
 
 }
 
+a {
+    text-decoration: none;
+}
+
 p {
     line-height: 26px;
 }
@@ -39,7 +48,7 @@ h1 {
 
     font-size: 36px;
     font-weight: 700;
-    line-height: 10px;
+    /* line-height: 10px; */
     /* 152.778% */
     letter-spacing: 1.5px;
 }
@@ -236,6 +245,7 @@ nav {
 .search-course-container button {
     background-color: white;
     width: 15%;
+    height: 100%;
 }
 
 .search-course-container button:hover {
@@ -361,6 +371,9 @@ nav {
     box-shadow: 0 15px 50px rgba(69, 88, 157, .10);
 }
 
+.video_cards iframe {
+    border-radius: 10px;
+}
 
 .video-cards-content {
     padding: 0 15px 15px 25px;
@@ -380,6 +393,11 @@ nav {
 .video-cards-content>.rating-container svg {
     fill: #FFCE1F;
 }
+
+.video-cards-content>.rating-container .rating-star-gray {
+    fill: #F0ECDF;
+}
+
 
 .video-cards-content>.rating-container p {
 
@@ -401,11 +419,16 @@ nav {
     margin-top: 8px;
 }
 
+.video-cards-content h3 {
+    margin-bottom: 0;
+}
+
 .video-watchcount {
     display: flex;
     align-items: center;
     gap: 15px;
 }
+
 
 .video-watchcount p {
     color: rgba(52, 61, 72, 0.800000011920929);
@@ -413,6 +436,7 @@ nav {
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
+
 
 
 }
@@ -943,4 +967,175 @@ nav {
 
 /* #endregion */
 
-.free-tutorial {}
+/* #region free tutorial */
+
+.free-tutorial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 350px;
+    margin-bottom: 180px;
+
+}
+
+.free-tutorial-left {
+    position: relative;
+    left: 150px;
+
+}
+
+.free-tutorial-left .top {
+    box-shadow: 0px 4px 80px 0px rgba(39, 83, 123, 0.12);
+    border: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.free-tutorial-left .bottom {
+
+    border: 0;
+    position: absolute;
+    scale: .9;
+    top: 0;
+    left: -150px;
+    z-index: 0;
+}
+
+.free-tutorial-left {
+    /* width: fit-content; */
+    margin-top: 50px;
+}
+
+
+
+.free-tutorial-btn {
+    border-radius: 5px;
+    background: #3FDBB1;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+
+    position: absolute;
+    top: 250px;
+    left: 370px;
+    z-index: 3;
+}
+
+.free-tutorial-right {
+    width: 420px;
+}
+
+.free-tutorial-right h2 {
+    text-align: left;
+}
+
+.free-tutorial-right h1 {
+    text-align: left;
+}
+
+.free-tutorial-right p {
+    line-height: 42px;
+}
+
+.free-tutorial-background {
+    background-image: url(Images/map.png);
+    background-repeat: no-repeat;
+    background-position: 100px 40px;
+}
+
+/* #endregion */
+
+.main-background {
+    background-image: url("Images/main-bg.svg");
+    background-repeat: no-repeat;
+    width: 1277px;
+    height: 1283px;
+
+    position: absolute;
+    top: 2047px;
+    z-index: -1;
+
+}
+
+/* #region frequent questions */
+.frequent-questions h1 {
+    margin-top: 5px;
+}
+
+.questions-container {
+    display: grid;
+    gap: 3px;
+}
+
+.questions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.questions p {
+    font-weight: 500;
+}
+
+.seperator {
+    width: 900px;
+    height: 3px;
+    background-color: #E5ECF4;
+
+}
+
+/* #endregion */
+
+/* #region start learning */
+.start-learning {
+    margin-top: 207px;
+}
+
+.start-learning h1 {
+    font-size: 50px;
+}
+
+.start-learning button {
+    display: block;
+    margin: 0 auto;
+    padding: 13px 24px;
+}
+
+/* #endregion */
+
+/* #region info */
+.info {
+    margin-top: 146px;
+}
+
+.info .seprator {
+
+    height: 3px;
+    background-color: #E5ECF4;
+}
+
+.info-content {
+    margin-top: 50px;
+    margin-bottom: 65px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr repeat(5, 1fr);
+}
+
+.info h3 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.info a {
+    font-size: 14px;
+    line-height: 250%;
+
+}
+
+/* #endregion */
